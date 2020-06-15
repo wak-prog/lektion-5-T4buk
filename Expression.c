@@ -19,10 +19,11 @@ scanf("%d",&c);
 printf("Bitte Zahl d eingeben: \n");
 scanf("%d",&d);
 ab = a*b;
+printf("a * b summe ist: %d \n", ab);
 cd = c*d;
+printf("c * d summe ist: %d \n", cd);
 summe = ab+cd;
-printf("Die Summe ist:");
-printf("%d",summe);
+printf("Die gesamte Summe ist: %d\n", summe);
 
 return EXIT_SUCCESS;
 
